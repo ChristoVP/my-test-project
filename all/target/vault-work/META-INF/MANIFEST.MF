@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Build-Jdk-Spec: 11
+Implementation-Title: My Test Project - All
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.my.test.project:my-test-project.all:0.0.1-SNAPSH
+ OT
+Content-Package-Description: All content package for My Test Project
+Content-Package-Roots: /apps/wknd-packages,/apps/wknd-vendor-packages
+

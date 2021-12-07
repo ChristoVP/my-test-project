@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My Test Project - All</comment>
+<entry key="cloudManagerTarget">all</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2021-12-07T17:20:15.850Z</entry>
+<entry key="groupId">com.my.test.project</entry>
+<entry key="name">my-test-project.all</entry>
+<entry key="description">All content package for My Test Project</entry>
+<entry key="artifactId">my-test-project.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.my.test.project</entry>
+</properties>
