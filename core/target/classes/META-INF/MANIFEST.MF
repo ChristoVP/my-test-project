@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Created-By: Maven Integration for Eclipse
+Bundle-Category: My Test Project
+Bundle-Description: Core bundle for My Test Project
+Bundle-ManifestVersion: 2
+Bundle-Name: My Test Project - Core
+Bundle-SymbolicName: my-test-project.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Import-Package: com.day.commons.datasource.poolservice;version="[1.1,2)"
+ ,com.day.cq.mailer;version="[6.0,7)",com.day.cq.tagging;version="[5.9,6
+ )",com.mysql.jdbc,javax.jcr;version="[2.0,3)",javax.jcr.query;version="
+ [2.0,3)",javax.mail;version="[1.6,2)",javax.mail.internet;version="[1.6
+ ,2)",javax.naming,javax.naming.directory,javax.net.ssl,javax.servlet;ve
+ rsion="[3.1,4)",javax.servlet.http;version="[3.1,4)",javax.sql,org.apac
+ he.commons.io;version="[1.4,2)",org.apache.commons.io.input;version="[1
+ .4,2)",org.apache.commons.lang;version="[2.6,3)",org.apache.commons.lan
+ g.text;version="[2.6,3)",org.apache.commons.mail;version="[1.5,2)",org.
+ apache.http;version="[4.4,5)",org.apache.http.client;version="[4.5,5)",
+ org.apache.http.client.methods;version="[4.5,5)",org.apache.http.conn;v
+ ersion="[4.5,5)",org.apache.http.impl.client;version="[4.5,5)",org.apac
+ he.jackrabbit.oak.commons.json;version="[1.1,2)",org.apache.sling.api;v
+ ersion="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.apa
+ che.sling.api.resource;version="[2.11,3)",org.apache.sling.api.servlets
+ ;version="[2.3,3)",org.apache.sling.commons.json;version="[2.0,3)",org.
+ apache.sling.jcr.api;version="[2.4,3)",org.apache.sling.settings;versio
+ n="[1.3,2)",org.osgi.service.component;version="[1.4,2)",org.osgi.servi
+ ce.event;version="[1.3,2)",org.slf4j;version="[1.7,2)",javax.annotation
+ ;version="0.0.0"
+Private-Package: com.herc.ewcm.core,com.herc.ewcm.core.common,com.herc.e
+ wcm.core.impl,com.herc.ewcm.core.impl.filters,com.herc.ewcm.core.impl.l
+ isteners,com.herc.ewcm.core.impl.schedulers,com.herc.ewcm.core.impl.ser
+ vlets,com.herc.ewcm.core.services
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
